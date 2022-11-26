@@ -9,9 +9,9 @@
 #### - Routes
 
 ##### 1: Get All Movies
-**URL:** `http://localhost:8000/movies`
-**METHOD:** `GET`
-**RESPONSE:**
+**URL:** `http://localhost:8000/movies` <br/>
+**METHOD:** `GET` <br/>
+**RESPONSE:** <br/>
 
 ```
 [
@@ -39,9 +39,9 @@
 ___
 
 ##### 2: Get a Movie by ID
-**URL:** `http://localhost:8000/movies/1`
-**METHOD:** `GET`
-**RESPONSE:**
+**URL:** `http://localhost:8000/movies/1` <br/>
+**METHOD:** `GET` <br/>
+**RESPONSE:** 
 ```
 {
     "id": "1",
@@ -53,10 +53,10 @@ ___
     }
 }
 ```
-
+___ 
 ##### 3: Create a Movie
-**URL** `http://localhost:8000/movies`
-**METHOD:** `POST`
+**URL** `http://localhost:8000/movies` <br/>
+**METHOD:** `POST` <br/>
 **REQUEST BODY:**
 ```
 {
@@ -80,10 +80,12 @@ ___
     }
 }
 ```
+___
+
 
 ##### 4: Update a Movie
-**URL:** `http:localhost:8000/movies/98498081`
-**METHOD:** `PUT`
+**URL:** `http:localhost:8000/movies/98498081` <br/>
+**METHOD:** `PUT` <br/>
 **REQUEST BODY:**
 ```
 {
@@ -108,9 +110,11 @@ ___
     }
 }
 ```
+___ 
+
 ##### 5: Deleting a Movie
-**URL:** `http:localhost:8000/movies/98498081`
-**METHOD:** `DELETE`
+**URL:** `http:localhost:8000/movies/98498081` <br/>
+**METHOD:** `DELETE` <br/>
 **RESPONSE:**
 ```
 [
